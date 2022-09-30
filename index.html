@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple To-do-List</title>
+    <link rel="stylesheet" type = "text/css" href="reset.min.css">
+    <link rel="stylesheet" type = "text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <input type = "text" placeholder="Enter your task..." id="item">
+        <button id=""add>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="480" height="480">
+                <path fill-rule="evenodd" d="M11 2L11 11L2 11L2 13L11 13L11 22L13 22L13 13L22 13L22 11L13 11L13 2Z"/>
+              </svg>
+        </button>
+    </header>
+    <div class = "container">
+        <ul class = "todo" id="todo"></ul>
+        <ul class = "todo" id="completed"></ul>
+    </div>
+    <script src="resources/js/scripts.js"></script>
+</body>
+</html>

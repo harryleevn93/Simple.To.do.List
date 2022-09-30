@@ -1,0 +1,86 @@
+body{
+    background: lightcyan;
+    padding: 80px 0 0 0;
+}
+
+body, input, button{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    padding: 15px;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    background-color: teal;
+    box-shadow: 0px 2px 4px rgba(44, 62, 80, 0.15);
+}
+
+header input{
+    width: 100%;
+    height: 50px;
+    float: left;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 45px 0 15px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px 25px 25px 10px;
+    border: 0;
+    box-shadow: 0;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+header input ::-webkit-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header input ::-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header input ::-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header input ::-moz-input-placeholder{
+    color: rgba(255, 255, 255, 0.75);
+}
+
+header button{
+    width: 50px;
+    height: 50px;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 2;
+
+    border-radius: 25px;
+    background-color: #fff;
+    border: 0;
+    box-shadow: none;
+    outline: none;
+    cursor: pointer;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+header button svg{
+        width: 25px;
+        height: 25px;
+        position: aboslute;
+        top: 50%;
+        left: 50%;
+        margin: 3px 0 0 0px;
+        fill: teal;
+}
+
+ul.todo li:last-of-type{
+    margin: 0px;
+}
