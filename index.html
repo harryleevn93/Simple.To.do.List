@@ -11,16 +11,20 @@
 <body>
     <header>
         <input type = "text" placeholder="Enter your task..." id="item">
-        <button id=""add>
+        <button id="add">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="480" height="480">
                 <path fill-rule="evenodd" d="M11 2L11 11L2 11L2 13L11 13L11 22L13 22L13 13L22 13L22 11L13 11L13 2Z"/>
               </svg>
         </button>
     </header>
     <div class = "container">
-        <ul class = "todo" id="todo"></ul>
-        <ul class = "todo" id="completed"></ul>
+        <ul class = "todo" id="todo">
+            <p id = "nothingtodo">
+                You have nothing to do.
+            </p>
+            </ul>
+        <ul class = "todo" id="completed">You have yet to complete any tasks.</ul>
     </div>
-    <script src="resources/js/scripts.js"></script>
+    <script src="scripts.js"></script>
 </body>
 </html>
